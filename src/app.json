@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/list",
+    "pages/logs/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#724938",
+    "navigationBarTitleText": "时尚地图",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#f9f9f9",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/assets/footer-home.png",
+        "selectedIconPath": "/static/assets/footer-home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "top10路线",
+        "iconPath": "/static/assets/footer-line.png",
+        "selectedIconPath": "/static/assets/footer-mine-active.png"
+      },
+      {
+        "pagePath": "pages/activity/list",
+        "text": "头条",
+        "iconPath": "/static/assets/footer-news.png",
+        "selectedIconPath": "/static/assets/footer-news-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "200秒",
+        "iconPath": "/static/assets/footer-video.png",
+        "selectedIconPath": "/static/assets/footer-video-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "/static/assets/footer-mine.png",
+        "selectedIconPath": "/static/assets/footer-mine-active.png"
+      }
+    ]
+  }
+}
